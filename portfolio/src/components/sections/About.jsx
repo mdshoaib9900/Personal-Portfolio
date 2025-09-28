@@ -19,7 +19,7 @@ function About() {
 
         {/* Resume button */}
         <a
-          href="https://drive.google.com/file/d/1YD4VwzhbT3eC0DbOuucpV5_mi6rZkEDy/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1IbGf7GHLZFlo2nFS9IjT9ZQfHj_WWeuQ/view?usp=drive_link"
           download
           className="inline-flex items-center gap-2 bg-black dark:bg-white text-white dark:text-black px-6 py-3 rounded-lg shadow-lg hover:bg-gray-800 dark:hover:bg-gray-300 transition"
         >
