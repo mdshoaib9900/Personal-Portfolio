@@ -3,8 +3,7 @@ import { FaDownload, FaGraduationCap } from "react-icons/fa";
 
 function About() {
   return (
-    <section className="bg-white text-black py-16 px-6 md:px-20  bg-[radial-gradient(#00000020_1px,transparent_1px)] [background-size:20px_20px]">
-    {/* <div className="absolute inset-0 bg-[radial-gradient(#00000020_1px,transparent_1px)] [background-size:20px_20px]"></div> */}
+    <section className="bg-white dark:bg-gray-900 text-black dark:text-white py-16 px-6 md:px-20 bg-[radial-gradient(#00000020_1px,transparent_1px)] [background-size:20px_20px]">
       <div className="max-w-4xl mx-auto text-center">
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-extrabold mb-6">ABOUT ME</h2>
@@ -20,9 +19,9 @@ function About() {
 
         {/* Resume button */}
         <a
-          href="/resume.pdf"
+          href="https://drive.google.com/file/d/1YD4VwzhbT3eC0DbOuucpV5_mi6rZkEDy/view?usp=drive_link"
           download
-          className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-lg shadow-lg hover:bg-gray-800 transition"
+          className="inline-flex items-center gap-2 bg-black dark:bg-white text-white dark:text-black px-6 py-3 rounded-lg shadow-lg hover:bg-gray-800 dark:hover:bg-gray-300 transition"
         >
           <FaDownload /> Get Resume
         </a>
@@ -37,26 +36,26 @@ function About() {
         <div className="relative border-l-4 border-red-500 pl-6">
           {/* Degree */}
           <div className="mb-10">
-            <div className="absolute -left-3.5 w-7 h-7 bg-red-500 rounded-full border-4 border-white"></div>
+            <div className="absolute -left-3.5 w-7 h-7 bg-red-500 rounded-full border-4 border-white dark:border-gray-900"></div>
             <h4 className="text-xl font-semibold">Bachelor of Engineering in Computer Science</h4>
-            <p className="text-gray-700">ATME College of Engineering</p>
-            <span className="text-sm text-gray-500">2022 - 2026</span>
+            <p className="text-gray-700 dark:text-gray-300">ATME College of Engineering</p>
+            <span className="text-sm text-gray-500 dark:text-gray-400">2022 - 2026</span>
           </div>
 
           {/* PUC */}
           <div className="mb-10">
-            <div className="absolute -left-3.5 w-7 h-7 bg-red-500 rounded-full border-4 border-white"></div>
+            <div className="absolute -left-3.5 w-7 h-7 bg-red-500 rounded-full border-4 border-white dark:border-gray-900"></div>
             <h4 className="text-xl font-semibold">Pre-University Course (PUC)</h4>
-            <p className="text-gray-700">St. Philomena Pu College </p>
-            <span className="text-sm text-gray-500">2020 - 2022</span>
+            <p className="text-gray-700 dark:text-gray-300">St. Philomena Pu College </p>
+            <span className="text-sm text-gray-500 dark:text-gray-400">2020 - 2022</span>
           </div>
 
           {/* School */}
           <div>
-            <div className="absolute -left-3.5 w-7 h-7 bg-red-500 rounded-full border-4 border-white"></div>
+            <div className="absolute -left-3.5 w-7 h-7 bg-red-500 rounded-full border-4 border-white dark:border-gray-900"></div>
             <h4 className="text-xl font-semibold">High School</h4>
-            <p className="text-gray-700">St Mary School</p>
-            <span className="text-sm text-gray-500">2019 - 2020</span>
+            <p className="text-gray-700 dark:text-gray-300">St Mary School</p>
+            <span className="text-sm text-gray-500 dark:text-gray-400">2019 - 2020</span>
           </div>
         </div>
       </div>

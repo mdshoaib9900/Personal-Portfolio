@@ -22,7 +22,7 @@ function Footer() {
             <FaXTwitter />
           </a>
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/mdshoaib9900"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-red-500 transition"
@@ -30,17 +30,19 @@ function Footer() {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/mohammed-shoaib-396ba5265/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-red-500 transition"
           >
             <FaLinkedin />
           </a>
-          <a
-            href="mailto:your.email@example.com"
+        <a
+            href="mailto:mdshoaib6360@gmail.com"
             className="hover:text-red-500 transition"
-          >
+            target="_blank"
+            rel="noopener noreferrer"
+            >
             <FaEnvelope />
           </a>
         </div>

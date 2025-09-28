@@ -2,7 +2,7 @@ import React from 'react'
 
 function Blogs() {
   return (
-    <div>Coming Soon..</div>
+    <div className='bg-white text-4xl text-white'>Coming Soon..</div>
   )
 }
 
